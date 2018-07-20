@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="situations">
+        <item>Panicky</item>
+        <item>Lively</item>
+        <item>Confused</item>
+        <item>Worn Out</item>
+        <item>Depressed</item>
+        <item>Downhearted</item>
+        <item>Annoyed</item>
+        <item>Exhausted</item>
+        <item>Mixed-up</item>
+        <item>Sleepy</item>
+        <item>Bitter</item>
+        <item>Unhappy</item>
+        <item>Anxious</item>
+        <item>Worried</item>
+        <item>Energetic</item>
+        <item>Miserable</item>
+        <item>Muddled</item>
+        <item>Nervous</item>
+        <item>Angry</item>
+        <item>Active</item>
+        <item>Tired</item>
+        <item>Bad Tempered</item>
+        <item>Alert</item>
+        <item>Uncertain</item>
+    </string-array>
+
+    <string-array name="situationMeanings">
+        <item>Feeling or characterized by uncontrollable fear or anxiety.</item>
+        <item>Full of life and energy; active and outgoing.</item>
+        <item>Unable to think clearly; bewildered.</item>
+        <item>Extremely tired; exhausted.</item>
+        <item>In a state of unhappiness or despondency.</item>
+        <item>Discouraged; in low spirits.</item>
+        <item>Slightly angry; irritated.</item>
+        <item>Very tired.</item>
+        <item>Suffering from psychological or emotional problems.</item>
+        <item>Needing or ready for sleep.</item>
+        <item>Feeling or showing anger, hurt, or resentment because of bad experiences or a sense of unjust treatment.</item>
+        <item>Not happy.</item>
+        <item>Feeling or showing worry, nervousness, or unease about something with an uncertain outcome.</item>
+        <item>Anxious or troubled about actual or potential problems.</item>
+        <item>Showing or involving great activity or vitality.</item>
+        <item>Wretchedly unhappy or uncomfortable.</item>
+        <item>Confused.</item>
+        <item>Easily agitated or alarmed.</item>
+        <item>Feeling or showing strong annoyance, displeasure, or hostility; full of anger.</item>
+        <item>Engaging or ready to engage in physically energetic pursuits.</item>
+        <item>In need of sleep or rest; weary.</item>
+        <item>Easily annoyed or made angry.</item>
+        <item>The state of being watchful for possible danger.</item>
+        <item>Not completely confident or sure of something.</item>
+    </string-array>
+
+</resources>

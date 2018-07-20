@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perceived1">
+        <item>Some kids feel that they lack strength compared to other kids their age</item>
+        <item>Some kids think that they have stronger muscles than other kids their age</item>
+        <item>Some kids lack confidence when it comes to strength activities</item>
+        <item>When strong muscles are needed, some kids are the first to step forward</item>
+        <item>Some kids feel that they are not as good as others when physical strength is needed</item>
+        <item>Some kids think that they are strong, and have good muscles compared to other kids their age</item>
+        <item>Some kids feel uneasy when it comes to vigorous physical exercise</item>
+        <item>Some kids have a lot of stamina for vigorous physical exercise</item>
+        <item>Some kids dont have much stamina and fitness</item>
+        <item>Some kids try to take part in energetic physical exercise when ever they can</item>
+        <item>Some kids soon have to quit running and exercising because they get tired</item>
+        <item>When it comes to activities like running, some kids are able to keep going</item>
+    </string-array>
+
+    <string-array name="perceived2">
+        <item>Other kids feel that they are stronger than other kids their age</item>
+        <item>Other kids feel that they have weaker muscles than other kids their age</item>
+        <item>Other kids lack confidence when it comes to strength activities</item>
+        <item>Other kids are the last to step forward when strong muscles are needed</item>
+        <item>Other kids feel that they are among the best when physical strength is needed</item>
+        <item>Other kids think that they are weaker, and dont have such good muscles as other kids their age</item>
+        <item>Other kids feel confident when it comes to doing vigorous physical exercise</item>
+        <item>Other kids soon get out of breath and have to slow down or quit</item>
+        <item>Other kids have lots of stamina and fitness</item>
+        <item>Other kids try to avoid doing energetic exercise if they can</item>
+        <item>Other kids can run and do exercise for a long time without getting tired</item>
+        <item>Other kids soon have to quit to take rest</item>
+    </string-array>
+
+</resources>

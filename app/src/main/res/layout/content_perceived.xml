@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PerceivedActivity"
+    tools:showIn="@layout/activity_perceived">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                android:id="@+id/txtSituation3"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textColor="@color/colorEditTextStudentInfo"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <RadioGroup
+                android:id="@+id/rdGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:paddingLeft="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtSituation3">
+
+                <RadioButton
+                    android:id="@+id/rdReallytrueforme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/ReallyTrue" />
+
+                <RadioButton
+                    android:id="@+id/rdSortoftrueforme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/SortofTrue" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtBut"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:gravity="center"
+                android:textColor="@color/colorEditTextStudentInfo"
+                android:text="But"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/rdGroup3"/>
+
+            <TextView
+                android:id="@+id/txtSituation4"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:gravity="center"
+                android:textColor="@color/colorEditTextStudentInfo"
+                android:text="TextView"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/txtBut"/>
+
+            <RadioGroup
+                android:id="@+id/rdGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:paddingLeft="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtSituation4">
+
+                <RadioButton
+                    android:id="@+id/rdSortoftrueforme2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/SortofTrue" />
+
+                <RadioButton
+                    android:id="@+id/rdReallytrueforme2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/ReallyTrue" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnNext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/my_button"
+                android:text="Next"
+                android:textSize="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="30sp"
+                android:textColor="@color/Black"
+                app:layout_constraintTop_toBottomOf="@+id/rdGroup4"
+                />
+
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

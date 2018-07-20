@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StrengthActivity"
+    tools:showIn="@layout/activity_strength">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                android:id="@+id/txtSituation2"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:gravity="center"
+                android:textColor="@color/colorEditTextStudentInfo"
+                android:text="TextView"
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/rdGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="30sp"
+                android:paddingLeft="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtSituation2">
+
+                <RadioButton
+                    android:id="@+id/rdNottrue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/NotTrue" />
+
+                <RadioButton
+                    android:id="@+id/rdSomewhattrue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/SomewhatTrue" />
+
+                <RadioButton
+                    android:id="@+id/rdCertainlyTrue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/CertainlyTrue" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnNext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginTop="50sp"
+                android:background="@drawable/my_button"
+                android:text="Next"
+                android:textSize="20sp"
+                android:textColor="@color/Black"
+                app:layout_constraintTop_toBottomOf="@+id/rdGroup2" />
+
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="strength">
+        <item>I try to be nice to other people. I care about their feelings</item>
+        <item>I am restless, I cannot stay still for long</item>
+        <item>I get a lot of headaches, stomach-aches or sickness</item>
+        <item>I usually share with others, for example CD’s, games, food</item>
+        <item>I get very angry and often lose my temper</item>
+        <item>I would rather be alone than with people of my age</item>
+        <item>I usually do as I am told</item>
+        <item>I worry a lot</item>
+        <item>I am helpful if someone is hurt, upset or feeling ill</item>
+        <item>I am constantly fidgeting or squirming</item>
+        <item>I have one good friend or more</item>
+        <item>I fight a lot. I can make other people do what I want</item>
+        <item>I am often unhappy, depressed or tearful</item>
+        <item>Other people my age generally like me</item>
+        <item>I am easily distracted, I find it difficult to concentrate</item>
+        <item>I am nervous in new situations. I easily lose confidence</item>
+        <item>I am kind to younger children</item>
+        <item>I am often accused of lying or cheating</item>
+        <item>Other children or young people pick on me or bully me</item>
+        <item>I often volunteer to help others (parents, teachers, children)    </item>
+        <item>I think before I do things</item>
+        <item>I take things that are not mine from home, school or elsewhere</item>
+        <item>I get along better with adults than with people my own age</item>
+        <item>I have many fears, I am easily scared</item>
+        <item>I finish the work I am doing. My attention is good</item>
+    </string-array>
+</resources>

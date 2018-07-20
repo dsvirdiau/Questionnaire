@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Youth Athlete Monitoring</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_menu">Menu Activity</string>
+    <string name="title_activity_mood_status">MoodStatusActivity</string>
+    <string name="title_activity_strength">StrengthActivity</string>
+    <string name="title_activity_perceived">PerceivedActivity</string>
+    <string name="instructions">
+        Place your fingertip on the Home button to verify your identity
+    </string>
+
+    <string name="NotAtAll">Not At All</string>
+    <string name="ALittle">A Little</string>
+    <string name="Moderately">Moderately</string>
+    <string name="QuiteABit">Quite A Bit</string>
+    <string name="Extremely">Extremely</string>
+
+    <string name="NotTrue">Not True</string>
+    <string name="SomewhatTrue">Somewhat True</string>
+    <string name="CertainlyTrue">Certainly True</string>
+
+    <string name="ReallyTrue">Really true for me</string>
+    <string name="SortofTrue">Sort of true for me</string>
+
+    <string name="APP_KEY">uz2dr3pzi69xs0k</string>
+
+</resources>
